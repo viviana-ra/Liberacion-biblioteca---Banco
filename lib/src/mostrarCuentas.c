@@ -13,7 +13,7 @@ struct cuentaBanc * mostrarCuentas( struct cuentasBanc *CB ){
         printf("\n\t\t-------------------------------------------------\n");
         printf("\n\t\tEstimado(a) %s",CB[i].nombre);
         printf("\n\t\tsu no. de cuenta es: %d",CB[i].cuenta);
-        printf("\n\t\ty su saldo actual es $%d ",CB[i].saldo);
+        printf("\n\t\ty su saldo actual es $%lf ",CB[i].saldo);
         printf("\n\t\t-------------------------------------------------\n");
     }  
 }
