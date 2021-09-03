@@ -9,7 +9,6 @@ struct cuentasBanc {
 };  
  
 struct cuentasBanc * depositar( struct cuentasBanc *BA ){  
-    int main(){ 
         long Nomcuenta;  
         double Monto;    
   
@@ -27,8 +26,4 @@ struct cuentasBanc * depositar( struct cuentasBanc *BA ){
         } 
   
         return BA;  
-    } 
 } 
-//gcc -c .\src\Deposito2.c -o .\obj\Deposito2.o -I .\Deposito2
-//Compilar:                gcc .\Deposito2.c -o Deposito2
-//Ejecutar:                .\Deposito2.exe

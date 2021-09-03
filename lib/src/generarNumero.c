@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
  
-int generarNumero( struct cuentasBan *CuentasB ){
+int generarNumero( struct cuentasBanc *CuentasB ){
     srand(time(NULL));
  
     long int aleatorio;
