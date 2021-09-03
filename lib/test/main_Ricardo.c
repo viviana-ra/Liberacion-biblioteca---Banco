@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-struct cuentasBanc {
+struct cuentasBan {
     char nombre[10];
     char apellido[10];
     long cuenta;
@@ -12,8 +12,8 @@ struct cuentasBanc {
 };
 
 int main( void ){
-    struct cuentasBanc *CB;
-    CB = (struct cuentasBanc *)malloc(sizeof(struct cuentasBanc) * 3);
+    struct cuentasBan *CB;
+    CB = (struct cuentasBan *)malloc(sizeof(struct cuentasBan) * 3);
     int opcion;
     char temp[10];
     int *gNumero;
