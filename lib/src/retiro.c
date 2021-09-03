@@ -25,7 +25,7 @@ struct cuentasBanc*  retirarSinTarjeta( struct cuentasBanc *bankAccount, long in
     scanf("%d",&NIP); 
  
     if ( NIP == random ){ 
-        printf("\n\t\tAqui tiene sus $%d",cantidad); 
+        printf("\n\t\tAqui tiene sus $%lf",cantidad); 
          
         for( int i = 0; i < 3; i++ ){ 
             if ((bankAccount[i].cuenta == cuenta) && (bankAccount[i].saldo>=cantidad)){ 
