@@ -16,11 +16,11 @@ struct cuentasBanc * depositar( struct cuentasBanc *BA ){
         scanf("%d",&Nomcuenta);  
   
         printf("\t\tCantidad: ");  
-        scanf("%lf",&Monto);  
+        scanf("%d",&Monto);  
       
   
         for ( int i = 0; i < 3; i++ ){  
-            if ( Nomcuenta == BA[i].cuenta ){  
+            if ( Nomcuenta == BA[i].Nomcuenta ){  
                 BA[i].saldo = BA[i].saldo + Monto;  
             }  
         } 
