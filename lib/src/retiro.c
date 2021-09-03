@@ -20,7 +20,7 @@ struct cuentasBanc*  retirarSinTarjeta( struct cuentasBanc *bankAccount, long in
     printf("\n\t\tNo. de cuenta: "); 
     scanf("%d",&cuenta); 
     printf("\n\t\tCantidad a retirar: "); 
-    scanf("%d",&cantidad); 
+    scanf("%lf",&cantidad); 
     printf("\n\t\tNIP retiro sin tarjeta: "); 
     scanf("%d",&NIP); 
  
